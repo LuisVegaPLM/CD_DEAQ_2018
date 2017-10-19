@@ -1,0 +1,480 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;*/
+ 
+}
+a{
+	text-decoration: none;
+	color: #d3d3d3;
+}
+h1{
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+h2{
+	color: #339900;
+	font-size:1.2em;
+	margin: 15px;
+	text-align: left;
+}
+iframe{
+
+    border-radius: 0.6em;
+	height: 100%;
+	width: 100%;
+}
+article#home{
+	background-image: url("../img/fondo-index.png");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    border-radius: 0.6em;
+	height: 100%;
+	width: 100%;
+}
+article#Empresas{
+	background-color: rgba(255,255,255,0.9);
+    border-radius: 0.6em;
+	height: 98%;
+	margin: 0 auto;
+	overflow-x: hidden;
+    overflow-y: scroll;
+	padding: 10px;
+	width: 98%;
+}
+/* ============-----> ID´S <-----============ */
+
+div#content-general{
+	background-image: url("../img/fondo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	bottom: 0;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: visible;
+    padding-top: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+div#content-home{
+	bottom: 0;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: visible;
+    padding-top: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/*#gene_hemo
+{
+    background-image: url('../img/globulos.jpg');
+    padding: 10px;
+    height: 100%;
+    width: 98.5%;
+    overflow: scroll;
+    position: fixed;
+}*/
+
+
+/*div#content{
+	height:100%;
+}*/
+div#head{
+	height:50px;
+	width:100%;
+}
+div#content-info{
+	height: calc(100% - 50px);
+	width:100%;
+}
+
+div#menu-secciones{
+	display: inline;
+	float: left;
+	height:100%;
+	margin-top:15px;
+	width:220px;
+}
+div#carga-info{
+	float: left;
+	height:100%;
+	width: calc(100% - 220px);
+	border-radius: 0.6em;
+}
+div#info{	
+    border-radius: 0.8em;
+    height: 95%;
+    margin: 0 auto;
+    /*margin-top: 15px;*/
+    width: 95%;
+}
+nav#indice-letras{
+    height: 40px;
+    margin: 10px auto;
+    /*padding: 10px;*/
+    width: 100%;
+}
+ul#lista-letras{
+    height: 17px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+ul#list-menu{
+	background-color: rgba(255, 255, 255, 0.9);
+	border: 2px solid #339900;
+	border-radius: 0.8em;
+	list-style: none;
+	margin: 0 auto;
+	width: 180px;
+	text-align: left;
+}
+
+
+
+
+
+
+/* ============-----> CLASS <-----============ */
+button.acordeon {
+    background-color: rgba(255, 255, 255, 0);
+    border: medium none;
+    color: #984444;/*#006600;*/
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+	margin-left:40px;
+    outline: medium none;
+    text-align: left;
+    transition: all 0.4s ease 0s;
+    width: 100%;
+	text-transform:uppercase; 
+}
+
+button.acordeon.active, button.acordeon:hover {
+    background-color: rgba(255,255,255,0);
+}
+
+div.panel {
+    color: #339900;
+	font-size: 0.8em;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: 0.6s ease-in-out;
+    -moz-transition: 0.6s ease-in-out;
+    -o-transition: 0.6s ease-in-out;
+    -ms-transition: 0.6s ease-in-out;
+    opacity: 0;
+ 
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: inherit;
+}
+div.Back{
+    float: left;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align:center;
+    width: 50%;
+}
+.categoria{
+	color: #339900;
+	font-size:1em;
+	text-align:center;
+	font-style: italic;
+	font-weight: bold;
+	margin: 10px;
+}
+.base-titu{
+	color: #4b4b4b;
+	font-style: italic;
+	text-align: center;
+	font-size:15px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+div.Next{
+    float: right;
+    height: 300%;
+    margin: 0 auto;
+    padding: 0;
+    text-align:center;
+    width: 50%;
+}
+div.flechas{
+	float:left;
+	width:220px;
+}
+span.forma{
+	margin-left:30px;
+}
+div.titulos-head{
+	float:left;
+	width:calc(100% - 220px);
+}
+h1.titulo-seccion{
+	color: #2b5a78;/*#216f1b*/
+	margin: 10px;
+	font-size: 1.2em;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+h1#letra{
+	color: #2b5a78; /*#339900; #984444;*/ 
+	font-style:italic;
+	font-size:18px;
+	font-weight:bold;
+}
+.info-lab{
+	color: #333333;
+	padding: 10px;
+	line-height:1.5em;
+}
+li.item-menu{
+	border-bottom: 1px solid #339900;
+	color: #006600;
+	padding: 13px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+li.item-menu:hover{
+	color: #339900;
+}
+.item-acordeon{
+	color:#339900;
+	margin:0 0 5px 5px;
+}
+.tipo-sustancia{
+	color:#339900;
+	font-weight: bold;
+	margin:0 0 8px 0px;
+	text-decoration: underline;
+}
+/*.item-acordeon a:hover{
+	color: #006600;
+	text-decoration: underline #339900;
+}*/
+li.letra{
+    display: inline;
+}
+li.letra img{
+    margin-top: 7px;
+}
+table.listado-prod{
+	font-size:13px;
+	padding:10px;
+	width: 100%;
+}
+a.link-item{
+	color: #333333;
+}
+a.link-item:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+img.logo-lab{
+	float: right;
+	margin: 0 15px 0 auto;
+}
+.nombre-Lab{
+	color: #006600; 
+	margin: 15px;
+	margin-left:40px;
+	font-size:16px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+}
+.nombre-Lab:hover a{
+	color: #339900;
+	text-decoration: none;
+}
+.nombre-Lab a{
+	color: #006600;
+	font-weight: 600;
+}
+li.sin-borde{
+	border-bottom: none;
+}
+div.titu-DEAQ{
+	float: left;
+	line-height: 43px;
+	width: 80%;
+}
+h1.titulo-general{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: white;
+	font-size: 1.3em;
+	padding: 14px 0;
+	text-shadow:1px 1px 5px #003300;
+	font-weight: 600;
+	/*text-shadow:1px 1px 2px #336633;
+	text-shadow:1px 1px 2px #336633;
+	text-shadow:1px 1px 2px #336633;
+	text-shadow:1px 1px 2px #336633;*/
+}
+div.btn-imprimir{
+	float: right;
+	width: 20%;
+}
+a.vinculo-product{
+	color:#006600;
+	text-decoration:none;
+}
+a.vinculo-product:hover{
+	color: #339900;
+	text-decoration: underline;
+}
+
+/****************************************************************************************/
+a.productoGen
+{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #325332;  /*#5C3317;#7c200a;#417e3c;8B4500#b74602;*/
+	
+	text-decoration: none;
+	padding-left:65px;
+	line-height:25px;
+}
+
+.ffProd
+{
+	font-style: italic;
+	font-weight: 100;
+}
+
+.susProd
+{
+	font-style: italic;
+	font-weight: 100;
+}
+
+
+.desProd
+{ 
+	font-weight: 100;
+}
+
+.productoG
+{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight:600;
+}
+
+a.productoGen:hover{  
+	color:#548B54;
+ 
+}
+
+ a.productoGen:visited 
+  {
+	  text-decoration: none;
+	  color: #21314f;/*#8b5742;#548B54;#C63110;*/
+  }
+		 a.productoGen: visited {color: blue}	
+			
+a.productoCult
+{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color:  #325332; /*#7c200a;#417e3c; #3A200E;*/
+	font-weight:600;
+	padding-left:40px;
+	line-height:20px;
+}
+
+.upperProd
+{
+	text-transform: uppercase;
+}
+
+.upperDivision
+{
+	text-transform: uppercase;
+}
+a.productoCult:hover{  
+	color:#548B54; 
+ 
+}
+
+
+.descripProd
+{
+	font-style: italic;
+	font-weight: 100;
+}
+ a.productoCult:visited 
+  {
+	  text-decoration: none;
+	  color: #21314f;/*#C63110;*/
+  }
+
+a:hover 
+{
+	text-decoration: none;
+	color:  #006600;/* #C63110;*/
+	 
+}
+
+.solos
+{
+	font-family : Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace; 
+	font-size: 14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color: #FF4500; /*#8E2323;*/ 
+	padding-left:40px;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+		
+
+a.productoSus
+{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color:  #325332; /*#7c200a;#417e3c;*/
+	font-weight:600;
+ 
+	line-height:20px;
+}
+
+.SubstancesProd
+{ 
+	padding-left:55px; 
+}
+
+ a.productoSus:hover{ 
+	 
+	
+	color:#548B54;
+	font-weight:600;
+ 
+} 
+		
+ a.productoSus:visited 
+  {
+	  text-decoration: none;
+	  color: #21314f;/*#8b5742#C63110;*/
+  }		
+
+
+ .tituloEmpresaSemillas
+			{
+				font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+				font-size: 19px;
+				font-weight:bold;
+				color: #566279;
+				text-transform:uppercase; 
+				padding-left: 20px;
+			}

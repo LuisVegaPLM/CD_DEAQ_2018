@@ -1,0 +1,7 @@
+[autorun]
+label = DEAQ
+open = autorun.exe [open][1] "DEAQ.exe"
+icon = autorun.exe
+
+[Installed]
+ProductCode = {DF8F4772-D22F-4BB2-B042-487C246EECE3}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HOME :: CD Agro</title>
+	<link rel="stylesheet" href="css/style.css">
+    <!-- // <script src="js/go.js" type="text/javascript"></script> -->
+</head>
+<body>
+	
+	<script type="text/javascript">
+
+        function printa() {
+
+            //   window.print();
+            parent.frames["carga-info"].focus();
+            parent.frames["carga-info"].print();
+        }
+    
+    </script>
+
+	<div id="content-general">
+		<!-- <div id="content"> -->
+
+			<div id="head">
+				<div class="flechas">
+					<div class="Back">
+						<img style="margin-top: 11px; float:right; cursor:pointer; margin-right:5px;" src="img/btn-back.png" onclick="history.back()" alt="">
+					</div>
+					<div class="Next">
+						<img style="margin-top: 11px; float:left; margin-left:5px; cursor:pointer;" onclick="history.forward()" src="img/btn-next.png" alt="">
+					</div>
+				</div>
+				<div class="titulos-head">
+					<div class="titu-DEAQ">
+						<a href="source/home.html" target="carga-info"><h1 class="titulo-general">DICCIONARIO DE ESPECIALIDADES AGROQUÍMICAS</h1></a></div>
+					<div class="btn-imprimir"><h1 class="titulo-general"> <img src="img/icon-print.png" alt="" onclick="printa()" style="cursor: pointer;"></h1></div>
+				</div>
+			</div>
+
+			<div id="content-info">
+
+				<div id="menu-secciones">
+					<ul id="list-menu">
+						<a href="source/Labs/labs.htm" target="carga-info">
+							<li class="item-menu">Empresas</li></a>
+
+						<a href="source/prods/prods.htm" target="carga-info">
+							<li class="item-menu">Productos Agroquímicos</li></a>
+
+						<a href="source/usos/usos.htm" target="carga-info">
+							<li class="item-menu">Usos Agroquímicos</li></a>
+
+						<a href="source/cult/cultivos.htm" target="carga-info">
+							<li class="item-menu">Cultivos</li></a>
+
+						<a href="source/semillas/semillas.htm" target="carga-info">
+							<li class="item-menu">Semillas</li></a>
+
+						<a href="source/ingact/ingact.htm" target="carga-info">
+							<li class="item-menu">Ingredientes Áctivos</li></a>
+
+						<a href="source/editorial/Editorial-DEAQ-28-2018.pdf" target="carga-info">
+							<li class="item-menu">Contenido Editorial</li></a>
+
+						<a href="source/Contacto/contacto.html" target="carga-info">
+							<li class="item-menu sin-borde">Contáctenos</li></a>
+					</ul>
+					<img style="margin: 6px 20px 0;" src="img/logo-Bingo.png" alt="">
+					<img style="margin: 0px 20px;" src="img/logo-Metropol.png" alt="">
+					<img style="margin: 0px 20px;" src="img/logo-Kompressor.png" alt="">
+					<img style="margin: 0px 20px;" src="img/logo-Billard.png" alt="">
+					<img style="margin: 0px 20px;" src="img/logo-Passat.png" alt="">
+				</div>
+
+
+				<div id="carga-info">
+					<div id="info">
+						<iframe name="carga-info" id="frame-info" src="source/home.html" frameborder="0"></iframe>
+					</div>
+				</div>
+
+			</div>
+		<!-- </div> -->
+
+	</div>
+	
+</body>
+</html>

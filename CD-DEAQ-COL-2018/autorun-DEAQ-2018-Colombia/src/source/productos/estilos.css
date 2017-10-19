@@ -1,0 +1,157 @@
+body
+{
+   
+	  margin-left:45px;
+	  margin-right:65px;
+	  margin-bottom:40px;
+	  margin-top:40px;
+	  background-color:rgba(255,255,255,0.9);
+}
+.Tabla-b-sica td {
+	border-collapse:collapse;
+	border: 1px solid;
+	border-radius: 6px;
+	 padding: 6px;
+	  
+}
+ 
+ .Ningun-estilo-de-tabla td {
+	border-collapse:collapse;
+	border: 1px solid;
+	border-radius: 6px;
+	 padding: 6px;
+}
+
+ 
+
+.tabla-contenido {
+	color:#000000;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	text-align:justify;
+ 	margin:3px 3px 3px 3px;
+	padding:0;
+ 
+}
+.tabla-titulo {
+	color:#000000;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:6px;
+	margin-top:6px;
+ 
+}
+
+ 
+.NOMBRE {
+	color: #2b5a78;  /*#391f26;#2F4F4F;#1f3858;*/
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:32px;
+	font-weight:bold;
+	text-transform: uppercase;
+ 
+}
+ .PRESENTA {
+	color:  #664559;/*#336666;*/
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-style:italic;
+	font-variant:normal;
+	font-weight:bold;
+ 
+}
+.Indic_o_Sust {
+	color: #2E8B57;/*#2E8B57;*/
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+ 
+}
+ .REGISTRO {
+	color: #336666; /*#892b49;#353a1a;*/
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+ 
+}
+ .BODY-TEXT {
+	color:#000000;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	font-weight:100;
+	text-align:justify;
+	line-height:16px;
+ 
+}
+ .Num_o_Guion {
+	color:#000000;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	padding-left: 15px;
+ 
+}
+ .Final-pagina {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #184583;  /*#003d90;#401730;*/
+	text-align: center;
+	text-transform: uppercase; 
+ 
+}
+ .Final-pagina1 {
+font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 16px; 
+	text-align: center;
+	font-style:italic;
+ 
+}
+
+ .bold {
+	font-style:normal;
+	font-weight:bold;
+}
+ .bold-entrada {
+	 font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #9F213C; /*#80172e; #993300;*/
+	font-style:normal;
+	font-weight:600;
+	font-size:16px;
+	text-transform:uppercase;
+}
+ .LOGO
+{
+	float:right;
+	padding-left:30px;
+	padding-bottom:20px;
+	position: absolute;
+	left: 75%;
+	top: 5%; 
+}
+
+.LOGO-PIE
+{
+	text-align: center;
+}
+
+.foto_centro
+{
+	text-align: center;
+}
+a
+{
+	color: #2f578f;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #5d7ca8;
+}
+ 
